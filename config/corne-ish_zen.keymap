@@ -20,13 +20,13 @@
     compatible = "zmk,combos";
 		combo_apos {
 			timeout-ms = <50>;
-			key-positions = <18 19>;
+			key-positions = <21 22>;
 			bindings = <&kp APOS>;
 			layers = <0 1>;
 		};
 		combo_fslh {
 			timeout-ms = <50>;
-			key-positions = <28 29>;
+			key-positions = <33 34>;
 			bindings = <&kp FSLH>;
 			layers = <0 1>;
 		};
@@ -34,57 +34,62 @@
 			timeout-ms = <50>;
 			key-positions = <8 9>;
 			bindings = <&kp DEL>;
-			layers = <2 3 4>;
 		};
 		combo_del2 {
 			timeout-ms = <50>;
-			key-positions = <10 11>;
+			key-positions = <9 10>;
+			bindings = <&kp DEL>;
+			layers = <2 3 4>;
+		};
+		combo_del3 {
+			timeout-ms = <50>;
+			key-positions = <13 14>;
 			bindings = <&kp DEL>;
 			layers = <2 3 4>;
 		};
 		combo_bspc {
 			timeout-ms = <50>;
-			key-positions = <8 9>;
+			key-positions = <9 10>;
 			bindings = <&kp BKSP>;
 			layers = <0 1>;
 		};
 		combo_bspc2 {
 			timeout-ms = <50>;
-			key-positions = <10 11>;
+			key-positions = <13 14>;
 			bindings = <&kp BKSP>;
 			layers = <0 1>;
 		};
 		combo_tab {
 			timeout-ms = <50>;
-			key-positions = <0 1>;
+			key-positions = <1 2>;
 			bindings = <&kp TAB>;
 			layers = <0 1>;
 
 		};
 		combo_esc {
 			timeout-ms = <50>;
-			key-positions = <1 2>;
+			key-positions = <2 3>;
 			bindings = <&kp ESC>;
 			layers = <0 1>;
 
 		};
 		combo_ctrl {
 			timeout-ms = <50>;
-			key-positions = <20 21>;
+			key-positions = <25 26>;
 			bindings = <&kp LCTRL>;
 			layers = <0 1>;
 
 		};
 		combo_alt {
 			timeout-ms = <50>;
-			key-positions = <21 22>;
+			key-positions = <26 27>;
 			bindings = <&kp LALT>;
 			layers = <0 1>;
 
 		};
 		combo_win {
 			timeout-ms = <50>;
-			key-positions = <22 23>;
+			key-positions = <27 28>;
 			bindings = <&kp LGUI>;
 			layers = <0 1>;
 
@@ -116,7 +121,7 @@
     &none    &kp Q        &kp W     &kp F       &kp P        &kp G      &kp J           &kp L       &kp U          &kp Y         &kp SEMI      &none
     &none    &kp A        &kp R     &kp S       &kp T        &kp D      &kp H           &kp N       &kp E          &kp I         &kp O         &none
     &none    &mt LSHFT Z  &kp X     &kp C       &kp V        &kp B      &kp K           &hm LGUI M  &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET &none
-                           &bt BT_CLR  &mo LOWER    &kp BSPC   &kp SPACE       &mo RAISE   &bt BT_CLR
+                                    &bt BT_CLR  &mo LOWER    &kp BSPC   &kp SPACE       &mo RAISE   &bt BT_CLR
                         >;
                 };
 				
@@ -126,7 +131,7 @@
     &none    &kp Q        &kp W     &kp E       &kp R        &kp T       &kp Y          &kp U       &kp I          &kp O         &kp P         &none
     &none    &kp A        &kp S     &kp D       &kp F        &kp G       &kp H          &kp J       &kp K          &kp L         &kp SEMI      &none
     &none    &mt LSHFT Z  &kp X     &kp C       &kp V        &kp B       &kp N          &hm LGUI M  &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET &none
-                           &none       &mo LOWER    &kp BSPC    &kp SPACE      &mo RAISE   &none
+                                    &none       &mo LOWER    &kp BSPC    &kp SPACE      &mo RAISE   &none
                         >;
                 };
 
@@ -136,7 +141,7 @@
     &none    &kp N1       &kp N2    &kp N3      &kp N4       &kp N5      &kp N6         &kp N7       &kp N8         &kp N9        &kp N0       &none
     &none    &kp F1       &kp F2    &kp F3      &kp F4       &kp F5      &kp F6         &kp LEFT     &kp DOWN       &kp UP        &kp RIGHT    &none
     &none    &mt LSHFT F7 &kp F8    &kp F9      &kp F10      &kp F11     &kp F12        &kp LGUI     &kp LALT       &kp LCTRL     &trans       &none
-                           &none       &trans       &trans      &trans         &mo ADJUST   &none
+                                    &none       &trans       &trans      &trans         &mo ADJUST   &none
                         >;
                 };
 
@@ -146,7 +151,7 @@
     &none    &kp EXCL     &kp AT    &kp POUND   &kp DLLR     &kp PRCNT   &kp CARET      &kp AMPS     &kp STAR       &kp LPAR      &kp RPAR     &none
     &none    &kp GRAVE    &kp LBRC  &kp LBKT    &kp LPAR     &kp MINUS   &kp EQUAL      &kp RPAR     &kp RBKT       &kp RBRC      &kp BSLH     &none
     &none    &kp LSHFT    &kp LCTRL &kp LALT    &kp LGUI     &kp UNDER   &kp PLUS       &kp LGUI     &kp LALT       &kp LCTRL     &trans       &none
-                           &none       &mo ADJUST   &trans      &trans         &trans       &none
+                                    &none       &mo ADJUST   &trans      &trans         &trans       &none
                         >;
                 };
 				
@@ -156,7 +161,7 @@
     &none    &kp ESC      &none     &none       &none        &none       &none         &none        &none          &none         &none         &none
     &none    &kp TAB      &none     &none       &none        &none       &none         &kp HOME     &kp PG_DN      &kp PG_UP     &kp END       &none
     &none    &none        &reset    &kp K_CMENU &bootloader  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1 &none          &none         &kp FSLH      &none
-                           &none       &trans       &tog QWERTY &tog QWERTY   &trans       &none
+                                    &none       &trans       &tog QWERTY &tog QWERTY   &trans       &none
                         >;
                 };
         };

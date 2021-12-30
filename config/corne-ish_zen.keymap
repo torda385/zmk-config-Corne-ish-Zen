@@ -116,7 +116,7 @@
  &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp SEMI
  &kp A &kp R &kp S &kp T &kp D &kp H &kp N &kp E &kp I &kp O
  &mt LSHFT Z &kp X &kp C &kp V &kp B &kp K &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET
- &bt BT_CLR &mo LOWER &kp BSPC &kp SPACE &mo RAISE &none
+ &bt BT_CLR &mo LOWER &kp BSPC &kp SPACE &mo RAISE &bt BT_CLR
                         >;
                 };
 				

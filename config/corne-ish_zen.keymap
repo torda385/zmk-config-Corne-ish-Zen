@@ -24,7 +24,7 @@
                         bindings = <
 	&kp Q		&kp W	&kp F	&kp P		&kp G		&kp J		&kp L		&kp U			&kp Y			&kp SEMI
 	&kp A		&kp R	&kp S	&kp T		&kp D		&kp H		&kp N		&kp E			&kp I			&kp O
-	&mt LSHFT Z	&kp X	&kp C	&kp V		&kp B		&kp K		&hm LGUI M	&hm LALT COMMA	&hm LCTRL DOT	&mt LSHFT RET
+	&mt LSHFT Z	&kp X	&kp C	&kp V		&kp B		&kp K		&kp N		&kp E			&kp I	&mt LSHFT RET
 						&none	&mo LOWER	&kp BSPC	&kp SPACE	&mo RAISE	&none
                         >;
                 };
@@ -34,7 +34,7 @@
                         bindings = <
 	&kp Q		&kp W	&kp E	&kp R		&kp T		&kp Y		&kp U		&kp I			&kp O			&kp P
 	&kp A		&kp S	&kp D	&kp F		&kp G		&kp H		&kp J		&kp K			&kp L			&kp SEMI
-	&mt LSHFT Z	&kp X	&kp C	&kp V		&kp B		&kp N		&kp M		&hm LALT COMMA	&hm LCTRL DOT	&mt LSHFT RET
+	&mt LSHFT Z	&kp X	&kp C	&kp V		&kp B		&kp N		&kp N		&kp E			&kp I	&mt LSHFT RET
 						&none	&mo LOWER 	&kp BSPC	&kp SPACE	&mo RAISE	&none
                         >;
                 };

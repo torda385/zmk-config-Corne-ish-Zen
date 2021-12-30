@@ -105,7 +105,7 @@ behaviors {
         keymap {
                 compatible = zmk,keymap;
 
-                default_layer { label = "CLMK";
+                default_layer { label = "TORRIN";
  -----------------------------------------------------------------------------------------
    Q    W    F    P    G     J    L     U    Y    ;  
    A    R    S    T    D     H    N     E    I    O  
@@ -161,7 +161,7 @@ behaviors {
                         ;
                 };
 				
-                adjust_layer {
+                adjust_layer { label = "ADJUST";
  -----------------------------------------------------------------------------------------
   ESC                                              
   TAB                            HO   PD   PU   EN 

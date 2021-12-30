@@ -113,50 +113,50 @@
                 default_layer {
 						label = "TORRIN";    
                         bindings = <
-    &kp Q        &kp W     &kp F      &kp P     &kp G    &kp J      &kp L      &kp U          &kp Y         &kp SEMI
-    &kp A        &kp R     &kp S      &kp T     &kp D    &kp H      &kp N      &kp E          &kp I         &kp O
-    &mt LSHFT Z  &kp X     &kp C      &kp V     &kp B    &kp K      &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET
-                           &bt BT_CLR &mo LOWER &kp BSPC &kp SPACE  &mo RAISE  &bt BT_CLR
+    &kp Q        &kp W     &kp F       &kp P        &kp G      &kp J           &kp L       &kp U          &kp Y         &kp SEMI
+    &kp A        &kp R     &kp S       &kp T        &kp D      &kp H           &kp N       &kp E          &kp I         &kp O
+    &mt LSHFT Z  &kp X     &kp C       &kp V        &kp B      &kp K           &hm LGUI M  &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET
+                           &bt BT_CLR  &mo LOWER    &kp BSPC   &kp SPACE       &mo RAISE   &bt BT_CLR
                         >;
                 };
 				
                 qwerty_layer {
 						label = "QWERTY";   
                         bindings = <
-    &kp Q        &kp W     &kp E      &kp R     &kp T     &kp Y     &kp U      &kp I          &kp O         &kp P
-    &kp A        &kp S     &kp D      &kp F     &kp G     &kp H     &kp J      &kp K          &kp L         &kp SEMI
-    &mt LSHFT Z  &kp X     &kp C      &kp V     &kp B     &kp N     &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET
-                           &none      &mo LOWER &kp BSPC  &kp SPACE &mo RAISE  &none
+    &kp Q        &kp W     &kp E       &kp R        &kp T       &kp Y          &kp U       &kp I          &kp O         &kp P
+    &kp A        &kp S     &kp D       &kp F        &kp G       &kp H          &kp J       &kp K          &kp L         &kp SEMI
+    &mt LSHFT Z  &kp X     &kp C       &kp V        &kp B       &kp N          &hm LGUI M  &hm LALT COMMA &hm LCTRL DOT &mt LSHFT RET
+                           &none       &mo LOWER    &kp BSPC    &kp SPACE      &mo RAISE   &none
                         >;
                 };
 
                 lower_layer {
 						label = "FUNC";
                         bindings = <
-    &kp N1       &kp N2    &kp N3     &kp N4    &kp N5    &kp N6    &kp N7      &kp N8         &kp N9        &kp N0
-    &kp F1       &kp F2    &kp F3     &kp F4    &kp F5    &kp F6    &kp LEFT    &kp DOWN       &kp UP        &kp RIGHT
-    &mt LSHFT F7 &kp F8    &kp F9     &kp F10   &kp F11   &kp F12   &kp LGUI    &kp LALT       &kp LCTRL     &trans
-                           &none      &trans    &trans    &trans    &mo ADJUST  &none
+    &kp N1       &kp N2    &kp N3      &kp N4       &kp N5      &kp N6         &kp N7       &kp N8         &kp N9        &kp N0
+    &kp F1       &kp F2    &kp F3      &kp F4       &kp F5      &kp F6         &kp LEFT     &kp DOWN       &kp UP        &kp RIGHT
+    &mt LSHFT F7 &kp F8    &kp F9      &kp F10      &kp F11     &kp F12        &kp LGUI     &kp LALT       &kp LCTRL     &trans
+                           &none       &trans       &trans      &trans         &mo ADJUST   &none
                         >;
                 };
 
                 raise_layer {
 						label = "SYMBOL";    
                         bindings = <
-    &kp EXCL        &kp AT        &kp POUND    &kp DLLR    &kp PRCNT    &kp CARET        &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR
-    &kp GRAVE        &kp LBRC    &kp LBKT    &kp LPAR    &kp MINUS    &kp EQUAL        &kp RPAR        &kp RBKT        &kp RBRC        &kp BSLH
-    &kp LSHFT        &kp LCTRL    &kp LALT    &kp LGUI    &kp UNDER    &kp PLUS        &kp LGUI        &kp LALT        &kp LCTRL        &trans
-                                &none        &mo ADJUST    &trans        &trans            &trans            &none
+    &kp EXCL     &kp AT    &kp POUND   &kp DLLR     &kp PRCNT   &kp CARET      &kp AMPS     &kp STAR       &kp LPAR      &kp RPAR
+    &kp GRAVE    &kp LBRC  &kp LBKT    &kp LPAR     &kp MINUS   &kp EQUAL      &kp RPAR     &kp RBKT       &kp RBRC      &kp BSLH
+    &kp LSHFT    &kp LCTRL &kp LALT    &kp LGUI     &kp UNDER   &kp PLUS       &kp LGUI     &kp LALT       &kp LCTRL     &trans
+                           &none       &mo ADJUST   &trans      &trans         &trans       &none
                         >;
                 };
 				
                 adjust_layer {
 						label = "ADJUST";
                         bindings = <
-    &kp ESC            &none        &none        &none        &none        &none            &none            &none            &none            &none 
-    &kp TAB            &none        &none        &none        &none        &none            &kp HOME        &kp PG_DN        &kp PG_UP        &kp END 
-    &none            &reset        &kp K_CMENU    &bootloader    &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1    &none            &none            &kp FSLH
-                                &none        &trans        &tog QWERTY    &tog QWERTY        &trans            &none
+    &kp ESC      &none     &none       &none        &none       &none         &none        &none          &none         &none 
+    &kp TAB      &none     &none       &none        &none       &none         &kp HOME     &kp PG_DN      &kp PG_UP     &kp END 
+    &none        &reset    &kp K_CMENU &bootloader  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1 &none          &none         &kp FSLH
+                           &none       &trans       &tog QWERTY &tog QWERTY   &trans       &none
                         >;
                 };
         };
